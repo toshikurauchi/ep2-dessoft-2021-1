@@ -6,6 +6,7 @@ const BaseInput = styled.input`
   border: none;
   color: ${(props) => props.theme.colors.input};
   font-family: monospace;
+  font-size: 1rem;
   padding: 0;
 
   &:focus {

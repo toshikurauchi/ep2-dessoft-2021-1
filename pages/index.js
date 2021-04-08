@@ -7,6 +7,7 @@ import { textoInicial, passoInicial } from "../src/game";
 
 const Container = styled.div`
   max-width: 950px;
+  padding: 1rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;

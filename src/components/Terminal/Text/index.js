@@ -6,5 +6,7 @@ const BaseText = styled.span`
 `;
 
 export default function Text({ color, children }) {
-  return <BaseText color={color}>{children}</BaseText>;
+  if (color && color !== "white")
+    return <BaseText color={color}>{children}</BaseText>;
+  return <>{children}</>;
 }

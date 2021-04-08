@@ -9,6 +9,8 @@ const BaseTerminal = styled.pre`
   margin-bottom: 2rem;
   padding: 1rem;
   font-size: 1rem;
+  overflow: scroll;
+  white-space: pre-wrap;
 `;
 
 export default function Terminal({ onClick, children }) {
